@@ -1,6 +1,6 @@
-tenki-php
-=========
+# tenki-php
 
+1週間分の天気予報をコンソールに表示するPHPスクリプトです。
 コンソールから使います。1週間分の天気予報を表示します。
 天気予報のデータは [OpenWeatherMap](http://openweathermap.org/) から入手します。
 
@@ -8,12 +8,14 @@ tenki-php
 
 ```
 $ git clone https://github.com/takatama/php-tenki
+$ cd php-tenki
+$ curl -sS https://getcomposer.org/installer | php
+$ php composer.phar update
 ```
 
 ## 使い方
 
 ```
-$ cd tenki-php
 $ php tenki.php <場所,国>
 ```
 
