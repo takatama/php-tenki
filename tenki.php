@@ -32,7 +32,7 @@ function get_forecasts($city_and_country) {
 }
 
 function show_city($city, $country, $lat, $lon) {
-    echo $city . ', ' . $country . ' (lat:' . $lat . ', ' . ', lon:' . $lon . ')' . PHP_EOL;
+    echo $city . ', ' . $country . ' (lat:' . $lat . ', lon:' . $lon . ')' . PHP_EOL;
 }
 
 function show_forecast($time_gmt, $weather, $temp_max_K, $temp_min_K) {
